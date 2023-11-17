@@ -38,6 +38,14 @@ body{
 .button:hover{
     background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
 }
+.common-titel{
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
 .main{
     background-image: url("../images/main_bg.png");
     background-position: top center;
@@ -119,4 +127,86 @@ body{
     position: absolute;
     top: -123px;
     left: calc(100% - 991px);
+}
+.why{
+    background-image: url("../images/whybg.png");
+    background-position: top center;
+    background-size: initial;
+    padding-bottom: 180px;
+}
+.why-items{
+    margin-top: 60px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3,312px);
+    justify-content: center;
+}
+.why-item{
+    text-align: center;
+}
+.why-item-titel{
+    font-size: 24px;
+    line-height: 29px;
+    padding: 24px 0;
+}
+.why-item-text{
+    font-size: 16px;
+    line-height: 140%;
+}
+.products{
+    background-image: url("../images/burgers_bg.png");
+    background-position: top center;
+    background-size: 1400px;
+    padding-bottom: 180px;
+}
+.product-items{
+    display: grid;
+    grid-template-columns: repeat(3,384px);
+    gap: 24px;
+    margin-top: 60px;
+}
+.product-item{
+    padding: 30px;
+    background: #211A16;
+    border-radius: 16px;
+    border: 1px solid #353535;
+}
+.product-iten-image{
+    height: 250px;
+}
+.product-iten-image img{
+    max-width: 100%;
+}
+.products-item-titel{
+    font-size: 24px;
+    line-height: 29px;
+    margin: 24px 0;
+}
+.product-item-text{
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 24px;
+}
+.products-item-extre{
+    display: flex;
+    justify-content: space-between;
+}
+.products-item-price{
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 8px;
+}
+.products-item-weight{
+    font-size: 16px;
+    line-height: 18px;
+    color: #757575;
+}
+.button.product-button{
+    display: flex;
+    justify-content: center;
+    width: 182px;
+    height: 62px;
+}
+.button.product-button span:first-child{
+    margin-right: 10PX;
 }
